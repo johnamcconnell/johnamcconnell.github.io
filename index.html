@@ -1,5 +1,25 @@
-<!DOCTYPE html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+       <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+      
 <style type="text/css">
 body {
     margin: 0;
@@ -50,8 +70,32 @@ header {
 }
 </style>
 </head>
+    
 <body>
-<header class="orange bgall"></header>
+<header class="orange bgall">
+    <div class="navbar flex">
+        <div class="logo">
+          <img class="logo" src="images/logo.svg" alt="Sunnyside" />
+        </div>
+
+        <nav>
+          <ul class="navbar__links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </nav>
+
+        <a class="navbar__cta" href="#"><button>Contact</button></a>
+      </div>
+
+      <div class="header__content">
+        <h1>We are creatives</h1>
+        <img src="images/icon-arrow-down.svg" alt="Arrow down" />
+      </div>
+    
+    
+    </header>
 
 <main>
 
