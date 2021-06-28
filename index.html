@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+<style type="text/css">
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+}
+
+.bgall {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.orange {
+    background-color: blue;
+    background-image: url(orange.jpg);
+}
+
+.smoothie {
+    background-color: pink;
+    background-image: url(smoothie.jpg);
+}
+
+._2coljust {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+._2coljust > div {
+    height: 50vh;
+    width:  50vw;
+}
+
+._5col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+._5col > div {
+    min-height: 50vh;
+    width:  20vw;
+}
+</style>
+</head>
+<body>
+<header class="orange bgall"></header>
+
+<main>
+
+<div class="_2coljust">
+    <div>
+        <h1>Transform your brand</h1>
+        <p>We are full-service creative team who are better than everyone else.  E pluribus unum</p>
+        <p><a href="#">Learn More</a></p>
+    </div>
+    <div class="smoothie bgall">Right</div>
+</div>
+<div class="_2coljust">
+    <div class="smoothie bgall">Left</div>
+    <div>
+        <h1>Stand out to the right audience</h1>
+        <p>We are full-service creative team who are better than everyone else.  E pluribus unum</p>
+        <p><a href="#">Learn More</a></p>
+    </div>
+</div>
+<div class="_2coljust">
+    <div class="smoothie bgall">Left</div>
+    <div class="smoothie bgall">Right</div>
+</div>
+<div class="white" style="text-align: center;">
+    <p>Client Testimonials</p>
+
+    <div class="_5col">
+        <div></div>
+        <div>We put our trust in you</div>
+        <div>Sunnyside is the greatest</div>
+        <div>Incredible team!</div>
+        <div></div>
+    </div>
+</div>
+</main>
+</body>
+</html>
